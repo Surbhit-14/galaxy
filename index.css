@@ -15,12 +15,12 @@ body{
 .secondary{
     background-color: rgb(180, 9, 9);
     
-    width: 50vh;
+    width: 30vh;
     height: 10vh;
     top: 0;
     left: 150px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 100px) {
     .secondary {
       background-color: lightblue;
     }
