@@ -21,8 +21,8 @@ canvas{
 .secondary{
     background-color: rgb(180, 9, 9);
     border-radius: 40px;
-    width: 100vh;
-    height: 310px;
+    width: 70vh;
+    height: 40vh;
     
 }
 @media only screen and (max-width: 100px) {
