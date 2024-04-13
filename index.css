@@ -25,11 +25,99 @@ canvas{
     height: 40vh;
     
 }
+.main{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
 @media only screen and (max-width: 100vh) {
     .secondary {
       background-color: lightblue;
       width: 30vh;
       height: 40vh;
+      overflow: hidden;
+      scroll-behavior: smooth;
+      overflow-y: scroll;
     }
+    .secondary::-webkit-scrollbar{
+        display: none;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    #i{
+        width: 30px;
+    }
+    .topic{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .t{
+        font-size: 20px;
+    }
+   .logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+   }
+   .line{
+    margin-top: 5px;
+    margin-bottom: 3px;
+   }
+   #tit{
+    font-size: 30px;
+   }
+   #techimg{
+    width: 40px;
+   }
+   .prohead{
+    font-size: 16px;
+    padding-left: 8px;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 5px;
+   }
+   .desc{
+    padding: 5px;
+    font-size: 15px;
+   }
+   .link{
+    width: 20px;
+   }
+   .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+   }
+   .if{
+    width: 25vh;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-color: aquamarine;
+   }
+   .if1{
+    width: 25vh;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: aquamarine;
+   }
+    .sbtn{
+        padding: 3px;
+        border-radius: 4px;
+        border: 1px solid white;
+        background-color: rgb(123, 209, 180);
+    }
+    
   }
   
