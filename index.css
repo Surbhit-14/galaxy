@@ -9,13 +9,14 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-
+    
 }
 canvas{
     position: relative;
 }
 .base{
     position: absolute;
+    width: 100px;
 }
 .secondary{
     background-color: rgb(180, 9, 9);
