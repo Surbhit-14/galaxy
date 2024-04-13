@@ -20,12 +20,12 @@ canvas{
 }
 .secondary{
     background-color: rgb(180, 9, 9);
-    border-radius: 40px;
-    width: 70vh;
+    
+    width: 50vh;
     height: 40vh;
     
 }
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 100vh) {
     .secondary {
       background-color: lightblue;
     }
